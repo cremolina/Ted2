@@ -5,6 +5,7 @@
 }
 body{
 	height: 1250px;
+	background-color: #F6F6F6;
 }
 html{
 	min-width: 1100px;
@@ -22,8 +23,7 @@ li{
 	padding-left: 10px;
 }
 #navBar{
-	background-color: black;
-	opacity: .70;
+	background-color: rgba(0,0,0,.3);
 	height: 50px;
 	max-width: 100%;
 	padding-bottom: 10px;
@@ -152,10 +152,15 @@ li{
 	position: relative;
 	padding-top: 10px;
 }
+.topTag{
+	margin-left: 45px;
+	margin-top: -13px;
+	position: absolute;
+}
 #scrollBottom{
 	box-sizing: border-box;
 	float: left;
-	margin-top: 300px;
+	margin-top: 180px;
 	margin-left: -5px;
 }
 .dropdown {
@@ -203,12 +208,13 @@ li{
 	width: 190px;
 	margin-left: 10px;
 	background-color: white;
-	box-shadow: 2px 2px 2px #AAA;
+	box-shadow: 1px 1px 1px #AAA;
 	vertical-align: top;
 }
 .newBox img{
 	height: 110px;
 	width: 190px;
+	margin-left: -4px;
 	padding-bottom: 8px;
 }
 .trendBox{
@@ -216,12 +222,13 @@ li{
 	width: 190px;
 	margin-left: 10px;
 	background-color: white;
-	box-shadow: 2px 2px 2px #AAA;
+	box-shadow: 1px 1px 1px #AAA;
 	vertical-align: top;
 }
 .trendBox img{
 	height: 110px;
 	width: 190px;
+	margin-left: -4px;
 	padding-bottom: 8px;
 }
 .newBox5{
